@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+body{
+  background-color:rgb(3, 0,31) !important ;
+  color: white !important;
+  font-family: 'Poppins', sans-serif !important;
+}
+.App{
+  min-height: 100vh;
+  display: flex;
+  
+}
+.sideBar{
+  flex: 3;
+  border-right: 2px solid rgb(100, 100, 100) !important;
+}
+.main{
+flex: 9!important;
+}
+.logo{
+  margin-right: 1rem;
+}
+.brand{
+  font-size: 2rem;
+}
+
+.upperSide{
+  padding: 2rem;
+  border-bottom: 2px solid rgb(100, 100, 100) !important;
+  height: 70%;
+}
+.upperSideTop{
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+.addBtn{
+  height: 2rem;
+  /* padding-right: 1rem; */
+  
+
+}
+.midbtn{
+  background: #5A4BFF;
+  border: none;
+  color: white;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  border-radius: 0.5rem;
+
+
+}
+.query{
+  display: flex;
+  justify-content: left;
+  background: transparent;
+  color: rgb(222, 222, 222,1);
+  padding: 1.5rem;
+  width: 25rem;
+  margin: 1rem auto;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(98, 98, 98,1);
+  font-size: 12px;
+}
+.query>img{
+  margin-right: 2rem;
+  object-fit: cover;
+  height: 1.75rem;
+}
+
+.lowerSide{
+  padding: 2rem;
+}
+.listItems{
+  font-size: 20px;
+}
+.listItemImg{
+  margin: 2rem;
+  /* display: flex; */
+  align-items: center;
+  font-size: 20px;
+}
+
+.main{
+  min-height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 20px;
+}
+.chats{
+  overflow: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  width: 100%;
+  max-width: 900px;
+  height: 600px;
+}
+.chat{
+  margin: 80px;
+  padding: 2rem,3rem;
+  font-size: 14px;
+  display: flex;
+  align-items: flex-start;
+}
+.chatimg{
+  object-fit: cover;
+  width: 40px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+.chatFooter{
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.inp{
+  padding: 10px;
+  background: rgb(28, 30, 58,1);
+  border-radius: 10px;
+  
+}
+.inp>input{
+  width: 600px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: white;
+}
+.inp>input, .send{
+background: transparent;
+border: none;
+}
